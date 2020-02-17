@@ -8,7 +8,7 @@ public class Principal {
     public static void main(String[] args) {
         LeituraRetorno leituraBB = new LeituraRetornoBancoBrasil();
         ProcessarBoletos processador = new ProcessarBoletos(leituraBB);
-        String nomeArquivo = "banco-brasil-1.cvs";
+        String nomeArquivo = "banco-brasil-1.csv";
         processador.processar(nomeArquivo);
         
     }
