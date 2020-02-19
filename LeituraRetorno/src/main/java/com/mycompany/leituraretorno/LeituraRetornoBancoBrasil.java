@@ -36,7 +36,7 @@ public class LeituraRetornoBancoBrasil implements LeituraRetorno {
                 lista.add(boleto);
             }
         } catch (IOException ex) {
-            Logger.getLogger(LeituraRetornoBancoBrasil.class.getName()).log(Level.SEVERE, null, ex);
+            throw new RuntimeException(ex);
         }
 
         return lista;
