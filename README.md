@@ -1,2 +1,2 @@
 # LeituraDeBoleto
-Projeto javautilizando padrão de projeto Strategy
+Projeto java utilizando padrão de projeto Strategy
